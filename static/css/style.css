@@ -21,13 +21,13 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url('http://sarasoueidan.com/demos/windows8-animations/fonts/icomoon.eot');
-  src: url('http://sarasoueidan.com/demos/windows8-animations/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-    url('http://sarasoueidan.com/demos/windows8-animations/fonts/icomoon.woff') format('woff'),
-    url('http://sarasoueidan.com/demos/windows8-animations/fonts/icomoon.ttf') format('truetype'),
-    url('http://sarasoueidan.com/demos/windows8-animations/fonts/icomoon.svg#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot');
+  src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
   font-weight: normal;
-  font-style: normal;
+  font-style: normal
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
@@ -40,7 +40,7 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -67,48 +67,48 @@ you can use the generic selector below, but it's slower:
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased
 }
 
 .icon-arrow-right:before {
-  content: "\e000";
+  content: "\e000"
 }
 
 .icon-calendar-alt-fill:before {
-  content: "\e001";
+  content: "\e001"
 }
 
 .icon-chrome:before {
-  content: "\e002";
+  content: "\e002"
 }
 
 .icon-picassa:before {
-  content: "\e003";
+  content: "\e003"
 }
 
 .icon-skype:before {
-  content: "\e004";
+  content: "\e004"
 }
 
 .icon-cloud:before {
-  content: "\e005";
+  content: "\e005"
 }
 
 .icon-cloudy:before {
-  content: "\e006";
+  content: "\e006"
 }
 
 .icon-dropbox:before {
-  content: "\e007";
+  content: "\e007"
 }
 
 .icon-instagram:before {
-  content: "\f16d";
+  content: "\f16d"
 }
 
 /*
 
-Copyright Â© 2013 Sara Soueidan
+Copyright © 2013 Sara Soueidan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -124,33 +124,39 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .slidePageInFromLeft {
   -webkit-animation: slidePageInFromLeft .8s cubic-bezier(.01,1,.22,.99) 1 0.25s normal forwards;
-  animation: slidePageInFromLeft .8s cubic-bezier(.01,1,.22,.99) 1 0.25s normal forwards;
+  -o-animation: slidePageInFromLeft .8s cubic-bezier(.01,1,.22,.99) 1 0.25s normal forwards;
+  animation: slidePageInFromLeft .8s cubic-bezier(.01,1,.22,.99) 1 0.25s normal forwards
 }
 
 .openpage {
   -webkit-animation: rotatePageInFromRight 1s cubic-bezier(.66,.04,.36,1.03) 1 normal forwards;
-  animation: rotatePageInFromRight 1s cubic-bezier(.66,.04,.36,1.03) 1 normal forwards;
+  -o-animation: rotatePageInFromRight 1s cubic-bezier(.66,.04,.36,1.03) 1 normal forwards;
+  animation: rotatePageInFromRight 1s cubic-bezier(.66,.04,.36,1.03) 1 normal forwards
 }
 
 .slidePageBackLeft {
   opacity: 1;
   left: 0;
   -webkit-animation: slidePageBackLeft .8s ease-out 1 normal forwards;
-  animation: slidePageBackLeft .8s ease-out 1 normal forwards;
+  -o-animation: slidePageBackLeft .8s ease-out 1 normal forwards;
+  animation: slidePageBackLeft .8s ease-out 1 normal forwards
 }
 
 .slidePageLeft {
   opacity: 1;
   -webkit-transform: rotateY(0) translateZ(0);
   -ms-transform: rotateY(0) translateZ(0);
+  -o-transform: rotateY(0) translateZ(0);
   transform: rotateY(0) translateZ(0);
   -webkit-animation: slidePageLeft .8s ease-out 1 normal forwards;
-  animation: slidePageLeft .8s ease-out 1 normal forwards;
+  -o-animation: slidePageLeft .8s ease-out 1 normal forwards;
+  animation: slidePageLeft .8s ease-out 1 normal forwards
 }
 
 .fadeOutback {
   -webkit-animation: fadeOutBack 0.3s ease-out 1 normal forwards;
-  animation: fadeOutBack 0.3s ease-out 1 normal forwards;
+  -o-animation: fadeOutBack 0.3s ease-out 1 normal forwards;
+  animation: fadeOutBack 0.3s ease-out 1 normal forwards
 }
 
 .fadeInForward-1,
@@ -159,48 +165,56 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   opacity: 0;
   -webkit-transform: translateZ(-5em) scale(0.75);
   -ms-transform: translateZ(-5em) scale(0.75);
+  -o-transform: translateZ(-5em) scale(0.75);
   transform: translateZ(-5em) scale(0.75);
   -webkit-animation: fadeInForward .5s cubic-bezier(.03,.93,.43,.77) .4s normal forwards;
-  animation: fadeInForward .5s cubic-bezier(.03,.93,.43,.77) .4s normal forwards;
+  -o-animation: fadeInForward .5s cubic-bezier(.03,.93,.43,.77) .4s normal forwards;
+  animation: fadeInForward .5s cubic-bezier(.03,.93,.43,.77) .4s normal forwards
 }
 
 .fadeInForward-2 {
   -webkit-animation-delay: .55s;
-  animation-delay: .55s;
+  -o-animation-delay: .55s;
+  animation-delay: .55s
 }
 
 .fadeInForward-3 {
   -webkit-animation-delay: .7s;
-  animation-delay: .7s;
+  -o-animation-delay: .7s;
+  animation-delay: .7s
 }
 
 @keyframes fadeOutBack {
   0% {
     -webkit-transform: translateX(-2em) scale(1);
     -ms-transform: translateX(-2em) scale(1);
+    -o-transform: translateX(-2em) scale(1);
     transform: translateX(-2em) scale(1);
-    opacity: 1;
+    opacity: 1
   }
 
   70% {
     -webkit-transform: translateZ(-5em) scale(0.6);
     -ms-transform: translateZ(-5em) scale(0.6);
+    -o-transform: translateZ(-5em) scale(0.6);
     transform: translateZ(-5em) scale(0.6);
-    opacity: 0.5;
+    opacity: 0.5
   }
 
   95% {
     -webkit-transform: translateZ(-5em) scale(0.6);
     -ms-transform: translateZ(-5em) scale(0.6);
+    -o-transform: translateZ(-5em) scale(0.6);
     transform: translateZ(-5em) scale(0.6);
-    opacity: 0.5;
+    opacity: 0.5
   }
 
   100% {
     -webkit-transform: translateZ(-5em) scale(0);
     -ms-transform: translateZ(-5em) scale(0);
+    -o-transform: translateZ(-5em) scale(0);
     transform: translateZ(-5em) scale(0);
-    opacity: 0;
+    opacity: 0
   }
 }
 
@@ -208,15 +222,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   0% {
     -webkit-transform: translateZ(-5em) scale(0);
     -ms-transform: translateZ(-5em) scale(0);
+    -o-transform: translateZ(-5em) scale(0);
     transform: translateZ(-5em) scale(0);
-    opacity: 0;
+    opacity: 0
   }
 
   100% {
     -webkit-transform: translateZ(0) scale(1);
     -ms-transform: translateZ(0) scale(1);
+    -o-transform: translateZ(0) scale(1);
     transform: translateZ(0) scale(1);
-    opacity: 1;
+    opacity: 1
   }
 }
 
@@ -224,19 +240,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   0% {
     -webkit-transform: rotateY(-90deg) translateZ(5em);
     -ms-transform: rotateY(-90deg) translateZ(5em);
+    -o-transform: rotateY(-90deg) translateZ(5em);
     transform: rotateY(-90deg) translateZ(5em);
-    opacity: 0;
+    opacity: 0
   }
 
   30% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     -webkit-transform: rotateY(0deg) translateZ(0);
     -ms-transform: rotateY(0deg) translateZ(0);
+    -o-transform: rotateY(0deg) translateZ(0);
     transform: rotateY(0deg) translateZ(0);
-    opacity: 1;
+    opacity: 1
   }
 }
 
@@ -245,12 +263,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left: 0;
     -webkit-transform: rotateY(0deg) translateZ(0);
     -ms-transform: rotateY(0deg) translateZ(0);
+    -o-transform: rotateY(0deg) translateZ(0);
     transform: rotateY(0deg) translateZ(0);
-    opacity: 1;
+    opacity: 1
   }
 
   70% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
@@ -258,17 +277,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left: -150%;
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg)
   }
 }
 
 @keyframes slidePageInFromLeft {
   0% {
-    opacity: 0;
+    opacity: 0
   }
 
   30% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
@@ -283,26 +303,44 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     left: 0;
     -webkit-transform: scale(0.95);
     -ms-transform: scale(0.95);
-    transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95)
   }
 
   10% {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9)
   }
 
   70% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     opacity: 0;
-    left: -150%;
+    left: -150%
   }
 }
 
+/*======================= media queries for animations =======================*/
 
+@media screen and (min-width: 64em) {
+@keyframes fadeInForward {
+    80% {
+      opacity: 0.9
+    }
+
+    100% {
+      -webkit-transform: translateZ(0) scale(1) translateX(-2em);
+      -ms-transform: translateZ(0) scale(1) translateX(-2em);
+      -o-transform: translateZ(0) scale(1) translateX(-2em);
+      transform: translateZ(0) scale(1) translateX(-2em);
+      opacity: 1
+    }
+}
+}
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -320,17 +358,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .clearfix:after {
-  clear: both;
+  clear: both
 }
 
 .clearfix {
-  *zoom: 1;
+  *zoom: 1
 }
 
 html {
   height: 100%;
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 body {
@@ -342,11 +380,11 @@ body {
   font-size: 16px;
   background-color: #eee;
   background: url(../images/fountainhead.jpeg) left top no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: none
 }
 
 header {
@@ -359,13 +397,13 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 2
 }
 
 header a {
   text-decoration: none;
   color: inherit;
-  font-size: 17px;
+  font-size: 17px
 }
 
 .demo-wrapper {
@@ -374,8 +412,9 @@ header a {
   height: 100%;
   -webkit-perspective: 3300px;
   -ms-perspective: 3300px;
+  -o-perspective: 3300px;
   perspective: 3300px;
-  position: relative;
+  position: relative
 }
 
 .dashboard {
@@ -384,25 +423,27 @@ header a {
   padding: 1em;
   -webkit-transform: translateX(200px);
   -ms-transform: translateX(200px);
+  -o-transform: translateX(200px);
   transform: translateX(200px);
   opacity: 0;
   -webkit-animation: start 1s ease-out forwards;
-  animation: start 1s ease-out forwards;
+  -o-animation: start 1s ease-out forwards;
+  animation: start 1s ease-out forwards
 }
 
 @-webkit-keyframes start {
   0% {
     -webkit-transform: translateX(200px);
-    opacity: 0;
+    opacity: 0
   }
 
   50% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     -webkit-transform: translateX(0);
-    opacity: 1;
+    opacity: 1
   }
 }
 
@@ -410,19 +451,21 @@ header a {
   0% {
     -webkit-transform: translateX(200px);
     -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
     transform: translateX(200px);
-    opacity: 0;
+    opacity: 0
   }
 
   50% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
+    -o-transform: translateX(0);
     transform: translateX(0);
-    opacity: 1;
+    opacity: 1
   }
 }
 
@@ -430,7 +473,7 @@ header a {
 .col2,
 .col3 {
   width: 99%;
-  margin: 1em auto;
+  margin: 1em auto
 }
 
 
@@ -465,10 +508,12 @@ header a {
 
   -webkit-transform-origin: 100% 0%;
   -ms-transform-origin: 100% 0%;
+  -o-transform-origin: 100% 0%;
   transform-origin: 100% 0%;
   -webkit-transform: rotateY(-90deg) translateZ(5em);
   -ms-transform: rotateY(-90deg) translateZ(5em);
-  transform: rotateY(-90deg) translateZ(5em);
+  -o-transform: rotateY(-90deg) translateZ(5em);
+  transform: rotateY(-90deg) translateZ(5em)
 }
 
 .s-page {
@@ -506,7 +551,7 @@ header a {
   right: .75em;
   cursor: pointer;
   line-height: .8em;
-  text-align: center;
+  text-align: center
 }
 
 .tile {
@@ -524,21 +569,22 @@ header a {
   color: #333;
   position: relative;
   -webkit-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out
 }
 
 .tile-2xbig {
   height: 16.15em;
-  width: 100%;
+  width: 100%
 }
 
 .tile-big {
-  width: 100%;
+  width: 100%
 }
 
 .tile img {
   width: 100%;
-  height: 70%;
+  height: 70%
 }
 
 .tile-caption {
@@ -548,14 +594,14 @@ header a {
   color: #fff;
   font-size: 1em;
   padding: 1em;
-  text-align: left;
+  text-align: left
 }
 
 .caption-bottom {
   left: 0;
   bottom: 0;
   right: 0;
-  height: 40%;
+  height: 40%
 }
 
 .caption-left {
@@ -564,20 +610,21 @@ header a {
   bottom: 0;
   width: 40%;
   -webkit-transition: left .3s linear;
-  transition: left .3s linear;
+  -o-transition: left .3s linear;
+  transition: left .3s linear
 }
 
 .tile:hover .caption-left {
-  left: 0;
+  left: 0
 }
 
 .tile-small {
   width: 49%;
-  margin-right: 2%;
+  margin-right: 2%
 }
 
 .tile-small.last {
-  margin-right: 0;
+  margin-right: 0
 }
 
 .tile div {
@@ -592,54 +639,55 @@ header a {
   display: table;
   padding: 0 1em;
   -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
 }
 
 .tile div p {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: middle
 }
 
 /*styling the individual tiles*/
 
 .tile-1 {
   background-color: #56D9C9;
-  color: white;
+  color: white
 }
 
 .tile-2 {
   background-color: #455962;
-  color: white;
+  color: white
 }
 
 .tile-2:hover {
   background-color: white;
-  color: #455962;
+  color: #455962
 }
 
 .tile-3 {
   background-color: #ddd;
-  color: #455962;
+  color: #455962
 }
 
 .tile-3:hover {
   background-color: white;
-  color: #455962;
+  color: #455962
 }
 
 .tile-5 {
   background-color: #FCC120;
-  color: white;
+  color: white
 }
 
 .tile-5:hover {
   background-color: #fff;
-  color: #FCC120;
+  color: #FCC120
 }
 
 .tile-6 {
   background-color: #3EC7F3;
-  color: white;
+  color: white
 }
 
 .tile-7,
@@ -649,26 +697,26 @@ header a {
 
 .tile-10 {
   background-color: #F0514A;
-  color: white;
+  color: white
 }
 
 .tile-10:hover {
   background-color: white;
-  color: #F0514A;
+  color: #F0514A
 }
 
 .tile-10 div {
-  text-align: left;
+  text-align: left
 }
 
 .tile-3 p {
   font-size: 4em;
-  margin-top: .5em;
+  margin-top: .5em
 }
 
 .tile-5 p,
 .tile-6 p {
-  font-size: 2em;
+  font-size: 2em
 }
 
 .tile-5 p span,
@@ -676,51 +724,54 @@ header a {
   font-size: 1.3em;
   margin-right: .7em;
   position: relative;
-  top: .15em;
+  top: .15em
 }
 
 .tile-6 p span {
-  margin-right: 1em;
+  margin-right: 1em
 }
 
 /* slide text inside tile up */
 
 .slideTextUp div:nth-child(2) {
-  top: 100%;
+  top: 100%
 }
 
 .slideTextUp:hover div {
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%)
 }
 
 .tile-1 p {
-  font-size: 1.3em;
+  font-size: 1.3em
 }
 
 /* slide text inside tile to the right*/
 
 .slideTextRight div:first-child {
-  left: -100%;
+  left: -100%
 }
 
 .slideTextRight:hover div {
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
-  transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%)
 }
 
 /* slide text inside tile to the left */
 
 .slideTextLeft div:nth-child(2) {
-  left: 100%;
+  left: 100%
 }
 
 .slideTextLeft:hover div {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
-  transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%)
 }
 
 /* rotate tile in 3D*/
@@ -728,18 +779,22 @@ header a {
 .rotate3d {
   -webkit-perspective: 800px;
   -ms-perspective: 800px;
+  -o-perspective: 800px;
   perspective: 800px;
-  overflow: visible;
+  overflow: visible
 }
 
 .faces {
   -webkit-transform-style: preserve-3d;
   -webkit-transition: -webkit-transform 1s;
   -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -o-transition: -o-transform 1s;
   transition: -webkit-transform 1s;
   transition: -ms-transform 1s;
-  transition: transform 1s;
+  transition: -o-transform 1s;
+  transition: transform 1s
 }
 
 .faces div {
@@ -753,7 +808,8 @@ header a {
   height: 100%;
   -webkit-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden
 }
 .faces .front{/*default*/
   background-color: #455962;
@@ -761,7 +817,7 @@ header a {
 }
 .rotate3dX .front {
   background-color: #455962;
-  color: #ddd;
+  color: #ddd
 }
 .rotate3dY .front {
   background-color: #ddd;
@@ -770,41 +826,45 @@ header a {
 
 .faces .back {
   background-color: #455962;
-  color: #ddd;
+  color: #ddd
 }
 
 .front span {
   display: inline-block;
   font-size: 4em;
-  margin-top: .5em;
+  margin-top: .5em
 }
 
 .rotate3dY .back {
   -webkit-transform: rotateY( 180deg );
   -ms-transform: rotateY( 180deg );
-  transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg )
 }
 
 .rotate3dX .back {
   -webkit-transform: rotateX( 180deg );
   -ms-transform: rotateX( 180deg );
-  transform: rotateX( 180deg );
+  -o-transform: rotateX( 180deg );
+  transform: rotateX( 180deg )
 }
 
 .back p {
-  padding: 2.5em 3em;
+  padding: 2.5em 3em
 }
 
 .rotate3dY:hover .faces:hover {
   -webkit-transform: rotateY( 180deg );
   -ms-transform: rotateY( 180deg );
-  transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg )
 }
 
 .rotate3dX:hover .faces:hover {
   -webkit-transform: rotateX( 180deg );
   -ms-transform: rotateX( 180deg );
-  transform: rotateX( 180deg );
+  -o-transform: rotateX( 180deg );
+  transform: rotateX( 180deg )
 }
 
 .s-page {
@@ -816,18 +876,18 @@ header a {
   color: white;
   text-align: center;
   font-weight: 300;
-  z-index: 1;
+  z-index: 1
 }
 
 .s-page p {
   font-size: 6em;
   margin-top: 2em;
-  font-weight: 100;
+  font-weight: 100
 }
 
 .myform {
   margin: 2em auto;
-  width: 300px;
+  width: 300px
 }
 
 input {
@@ -836,7 +896,7 @@ input {
   padding: 0 10px;
   width: 260px;
   height: 40px;
-  float: left;
+  float: left
 }
 
 #unlock-button {
@@ -850,13 +910,13 @@ input {
   padding: .3125em;
   text-align: center;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 2px
 }
 
 .delete-button {
   font-size: 0.7em;
   float: right;
-  line-height: 25px;
+  line-height: 25px
 }
 
 /*======================= media queries =======================*/
@@ -867,7 +927,7 @@ input {
   .col3 {
     float: left;
     margin-right: 1%;
-    width: 49%;
+    width: 49%
   }
   .page-title{
     font-size:2.5em;
@@ -886,15 +946,15 @@ input {
   .col3 {
     float: left;
     margin-right: .5%;
-    width: 31%;
+    width: 31%
   }
 
   .col3 {
-    margin-right: 0;
+    margin-right: 0
   }
 
   .col1 {
-    margin-left: 2em;
+    margin-left: 2em
   }
   .page-title{
     font-size:3.5em;
@@ -941,7 +1001,7 @@ input {
   100% {
     -webkit-transform: translateZ(0) scale(1);
     transform: translateZ(0) scale(1);
-    opacity: 1;
+    opacity: 1
   }
 }
 
@@ -949,17 +1009,17 @@ input {
   0% {
     -webkit-transform: rotateY(-90deg) translateZ(5em);
     transform: rotateY(-90deg) translateZ(5em);
-    opacity: 0;
+    opacity: 0
   }
 
   30% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     -webkit-transform: rotateY(0deg) translateZ(0);
     transform: rotateY(0deg) translateZ(0);
-    opacity: 1;
+    opacity: 1
   }
 }
 
@@ -968,33 +1028,33 @@ input {
     left: 0;
     -webkit-transform: rotateY(0deg) translateZ(0);
     transform: rotateY(0deg) translateZ(0);
-    opacity: 1;
+    opacity: 1
   }
 
   70% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     opacity: 0;
     left: -150%;
     -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+    transform: rotateY(0deg)
   }
 }
 
 @-webkit-keyframes slidePageInFromLeft {
   0% {
-    opacity: 0;
+    opacity: 0
   }
 
   30% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     opacity: 1;
-    left: 0;
+    left: 0
   }
 }
 
@@ -1003,97 +1063,110 @@ input {
     opacity: 1;
     left: 0;
     -webkit-transform: scale(0.95);
-    transform: scale(0.95);
+    transform: scale(0.95)
   }
 
   10% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+    transform: scale(0.9)
   }
 
   70% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     opacity: 0;
-    left: -150%;
+    left: -150%
   }
 }
 
+@-o-keyframes fadeOutBack {
   0% {
     -webkit-transform: translateX(-2em) scale(1);
     -ms-transform: translateX(-2em) scale(1);
+    -o-transform: translateX(-2em) scale(1);
     transform: translateX(-2em) scale(1);
-    opacity: 1;
+    opacity: 1
   }
 
   70% {
     -webkit-transform: translateZ(-5em) scale(0.6);
     -ms-transform: translateZ(-5em) scale(0.6);
+    -o-transform: translateZ(-5em) scale(0.6);
     transform: translateZ(-5em) scale(0.6);
-    opacity: 0.5;
+    opacity: 0.5
   }
 
   95% {
     -webkit-transform: translateZ(-5em) scale(0.6);
     -ms-transform: translateZ(-5em) scale(0.6);
+    -o-transform: translateZ(-5em) scale(0.6);
     transform: translateZ(-5em) scale(0.6);
-    opacity: 0.5;
+    opacity: 0.5
   }
 
   100% {
     -webkit-transform: translateZ(-5em) scale(0);
     -ms-transform: translateZ(-5em) scale(0);
+    -o-transform: translateZ(-5em) scale(0);
     transform: translateZ(-5em) scale(0);
-    opacity: 0;
+    opacity: 0
   }
 }
 
+@-o-keyframes fadeInForward {
   0% {
     -webkit-transform: translateZ(-5em) scale(0);
     -ms-transform: translateZ(-5em) scale(0);
+    -o-transform: translateZ(-5em) scale(0);
     transform: translateZ(-5em) scale(0);
-    opacity: 0;
+    opacity: 0
   }
 
   100% {
     -webkit-transform: translateZ(0) scale(1);
     -ms-transform: translateZ(0) scale(1);
+    -o-transform: translateZ(0) scale(1);
     transform: translateZ(0) scale(1);
-    opacity: 1;
+    opacity: 1
   }
 }
 
+@-o-keyframes rotatePageInFromRight {
   0% {
     -webkit-transform: rotateY(-90deg) translateZ(5em);
     -ms-transform: rotateY(-90deg) translateZ(5em);
+    -o-transform: rotateY(-90deg) translateZ(5em);
     transform: rotateY(-90deg) translateZ(5em);
-    opacity: 0;
+    opacity: 0
   }
 
   30% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     -webkit-transform: rotateY(0deg) translateZ(0);
     -ms-transform: rotateY(0deg) translateZ(0);
+    -o-transform: rotateY(0deg) translateZ(0);
     transform: rotateY(0deg) translateZ(0);
-    opacity: 1;
+    opacity: 1
   }
 }
 
+@-o-keyframes slidePageLeft {
   0% {
     left: 0;
     -webkit-transform: rotateY(0deg) translateZ(0);
     -ms-transform: rotateY(0deg) translateZ(0);
+    -o-transform: rotateY(0deg) translateZ(0);
     transform: rotateY(0deg) translateZ(0);
-    opacity: 1;
+    opacity: 1
   }
 
   70% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
@@ -1101,75 +1174,65 @@ input {
     left: -150%;
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg)
   }
 }
 
+@-o-keyframes slidePageInFromLeft {
   0% {
-    opacity: 0;
+    opacity: 0
   }
 
   30% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     opacity: 1;
-    left: 0;
+    left: 0
   }
 }
 
+@-o-keyframes slidePageBackLeft {
   0% {
     opacity: 1;
     left: 0;
     -webkit-transform: scale(0.95);
     -ms-transform: scale(0.95);
-    transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95)
   }
 
   10% {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9)
   }
 
   70% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     opacity: 0;
-    left: -150%;
+    left: -150%
   }
 }
 
+@-o-keyframes start {
   0% {
     -webkit-transform: translateX(200px);
-    opacity: 0;
+    opacity: 0
   }
 
   50% {
-    opacity: 1;
+    opacity: 1
   }
 
   100% {
     -webkit-transform: translateX(0);
-    opacity: 1;
-  }
-}
-/*======================= media queries for animations =======================*/
-
-@media screen and (min-width: 64em) {
-  @keyframes fadeInForward {
-      80% {
-        opacity: 0.9;
-      }
-
-      100% {
-        -webkit-transform: translateZ(0) scale(1) translateX(-2em);
-        -ms-transform: translateZ(0) scale(1) translateX(-2em);
-        transform: translateZ(0) scale(1) translateX(-2em);
-        opacity: 1;
-      }
+    opacity: 1
   }
 }
